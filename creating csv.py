@@ -55,5 +55,3 @@ csv_content = """Order_ID,Product,Category,Price,Quantity,Discount
 # Write the string above into a physical CSV file named sales.csv
 with open("sales.csv", "w") as file:
     file.write(csv_content.strip())
-
-print("📁 'sales.csv' has been generated in your project folder!\n")
